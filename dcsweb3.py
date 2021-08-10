@@ -192,9 +192,9 @@ class DCSCHAIN:
                 return {'status':'error','message':'Unknown error|Not enough token to send!'}
 
 
-dcs = DCSCHAIN('bsc')
-dcs.set_contract('0x3b78458981eb7260d1f781cb8be2caac7027dbe2')
-print(dcs.get_token_balance('0x74D17aB9c31b14d36D84E22Cc31969cbe0ae5b4a'))
+# dcs = DCSCHAIN('bsc')
+# dcs.set_contract('0x3b78458981eb7260d1f781cb8be2caac7027dbe2')
+# print(dcs.get_token_balance('0x74D17aB9c31b14d36D84E22Cc31969cbe0ae5b4a'))
 
 # sender_wallet = '0x6A92e664FD1Dc35A22BDcC4c9D7992352c4456b9'
 # receive_wallet = '0x5E4A490fFE7eBAC03b22dbaffb5f5a5d0292CFA3'
